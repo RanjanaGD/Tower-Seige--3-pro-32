@@ -151,7 +151,7 @@ async function getBackgroundImg(){
   var hour=dateTime.slice(11,13);
   console.log(hour);
 
-if(hour>=06 && hour<=19){
+if(hour>=06 && hour<=18){
 bg="images.m.jpg"
 }
 else{
