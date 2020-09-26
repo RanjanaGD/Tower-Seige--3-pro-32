@@ -62,10 +62,10 @@ Engine.run(engine);
 }
 
 function draw() {
-  if(sun){
-    background(sun);
-    }
- // background(230);  
+ //if(sun){
+    //background(sun);
+   // }
+  background(230);  
   fill("white");
   textSize(20)
   text("score: "+score,750,40)
