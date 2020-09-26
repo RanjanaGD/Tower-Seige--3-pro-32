@@ -11,10 +11,10 @@ var poly;
 var score=0;
 var sun;
 
-function preload() {
-  getBackgroundImg();
+//function preload() {
+ // getBackgroundImg();
  
-}
+//}
 
 function setup() {
   createCanvas(1300,600);
@@ -144,19 +144,19 @@ function keyPressed(){
 	}
 }
 
-async function getBackgroundImg(){
-  var response=await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
-  var respondJSON=await response.json();
-  var dateTime=respondJSON.datetime;
-  var hour=dateTime.slice(11,13);
-  console.log(hour);
+//async function getBackgroundImg(){
+  //var response=await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+  //var respondJSON=await response.json();
+  //var dateTime=respondJSON.datetime;
+ //var hour=dateTime.slice(11,13);
+ // console.log(hour);
 
-if(hour>=06 && hour<=18){
-bg="images.m.jpg"
-}
-else{
-bg="images.n.jpg"
-}
-sun=loadImage(bg);
+//if(hour>=06 && hour<=18){
+//bg="images.m.jpg"
+//}
+//else{
+//bg="images.n.jpg"
+//}
+//sun=loadImage(bg);
 
-}
+//}
