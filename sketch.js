@@ -49,6 +49,7 @@ ground1=new Ground(960,220,220,10);
   block18= new Box(930,155,30,40);
   block19= new Box(960,155,30,40);
   block20= new Box(990,155,30,40);
+	
   block21= new Box(960,115,30,40);
 //first part last one
 block22=new Box(605,230,30,40)
